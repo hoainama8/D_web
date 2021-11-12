@@ -8,5 +8,5 @@ var defaultVideo = videoNode.lastElementChild.src;
 defaultVideo = 'https://siasky.net/AAAe_ifd8iWaCevMesvI9xWqvcOpsM09KWWnCXWkjU_hog'
 console.log(videoNode.lastElementChild.src, videotag, sourceVideo.attributes).
 
-var header = document.querySelector('head');
+var header = document.querySelector('head.style');
 console.log(header)
