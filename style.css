@@ -1,0 +1,12 @@
+.videoNode {
+    background-color: antiquewhite;
+    max-width: 800px;
+    justify-content: center;
+    margin: 200px auto auto auto;
+    padding:0%;
+};
+
+.video {
+    width: auto;
+    justify-content: center;
+}
