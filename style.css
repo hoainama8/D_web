@@ -1,12 +1,2 @@
-.videoNode {
-    background-color: antiquewhite;
-    max-width: 600px;
-    justify-content: center;
-    margin: 200px auto auto auto;
-    padding:0%;
-};
-
-.video {
-    width: auto;
-    justify-content: center;
-}
+var bodyNode = document.querySelector(body)
+console.log(bodyNode)
