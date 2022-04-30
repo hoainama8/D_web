@@ -1,9 +1,7 @@
-function data(a, b) {
-return a + b 
-};
-
-const sum = data(2, 3)
-
-
-const mains = document.querySelector('#main')
-console.log(mains)
+const btnNode = document.querySelector('.changeColor')
+const gray = {
+  background-color: "gray",
+}
+ const btn = document.createElement('button')
+    btn.classList.add('btn gray')
+    document.appendChild('btnNode')
