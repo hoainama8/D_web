@@ -4,4 +4,4 @@ const gray = {
 }
  const btn = document.createElement('button')
     btn.classList.add('btn gray')
-    document.appendChild('btnNode')
+    btnNode.appendChild('btn')
