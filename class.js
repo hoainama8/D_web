@@ -1,8 +1,4 @@
-const btnNode = document.querySelector('.changeColor')
-const gray = {
-  background-color: "gray"
-}
- const btn = document.createElement('button')
-  btn.textContent = "Gray"
-    btn.classList.add('btn gray')
-    btnNode.appendChild('btn')
+const btncreate = document.createElement('button')
+    btncreate.innerText = "gray"
+    btncreate.classList.add('btn');
+    document.getElementById("changeColor").appendChild(btncreate)
