@@ -5,6 +5,10 @@ const btncreate = document.createElement('button');
     btncreate.setAttribute('name', 'changeColor')
     btncreate.style.backgroundColor = "gray"
     document.getElementById("changeColor").appendChild(btncreate);
+ btncreate.onclick = (e) => {
+            main.style.backgroundColor = e.target.style.backgroundColor;
+           
+        }
 
 const btnBlue = document.createElement('button');
     btnBlue.innerText = "Blue";
@@ -13,3 +17,7 @@ const btnBlue = document.createElement('button');
     btnBlue.setAttribute('name', 'changeColor')
     btnBlue.style.backgroundColor = "blue"
     document.getElementById("changeColor").appendChild(btnBlue);
+ btnBlue.onclick = (e) => {
+            main.style.backgroundColor = e.target.style.backgroundColor;
+           
+        }
